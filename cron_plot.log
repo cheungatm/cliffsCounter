@@ -1,0 +1,171 @@
+/bin/sh: Rscript: command not found
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error: '../occupancy-counter.csv' does not exist in current working directory ('/Users/alexandercheung').
+Execution halted
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  weekday = col_double(),
+  hour = col_character(),
+  minute = col_character(),
+  n_climbers = col_double(),
+  day_date = col_character(),
+  month = col_double()
+)
+
+    weekday        hour      minute  n_climbers    day_date       month 
+  "numeric" "character" "character"   "numeric" "character"   "numeric" 
+   weekday       hour     minute n_climbers   day_date      month 
+ "numeric"  "numeric"  "numeric"  "numeric"  "numeric"  "numeric" 
+Warning message:
+Continuous limits supplied to discrete scale.
+Did you mean `limits = factor(...)` or `scale_*_continuous()`? 
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+/bin/sh: Rscript: command not found
+/bin/sh: Rscript: command not found
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+-- Column specification --------------------------------------------------------
+cols(
+  weekday = col_double(),
+  hour = col_character(),
+  minute = col_character(),
+  n_climbers = col_double(),
+  day_date = col_character(),
+  month = col_double()
+)
+
+    weekday        hour      minute  n_climbers    day_date       month 
+  "numeric" "character" "character"   "numeric" "character"   "numeric" 
+   weekday       hour     minute n_climbers   day_date      month 
+ "numeric"  "numeric"  "numeric"  "numeric"  "numeric"  "numeric" 
+Warning message:
+Continuous limits supplied to discrete scale.
+Did you mean `limits = factor(...)` or `scale_*_continuous()`? 
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+-- Column specification --------------------------------------------------------
+cols(
+  weekday = col_double(),
+  hour = col_character(),
+  minute = col_character(),
+  n_climbers = col_double(),
+  day_date = col_character(),
+  month = col_double()
+)
+
+    weekday        hour      minute  n_climbers    day_date       month 
+  "numeric" "character" "character"   "numeric" "character"   "numeric" 
+   weekday       hour     minute n_climbers   day_date      month 
+ "numeric"  "numeric"  "numeric"  "numeric"  "numeric"  "numeric" 
+Warning message:
+Continuous limits supplied to discrete scale.
+Did you mean `limits = factor(...)` or `scale_*_continuous()`? 
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+-- Column specification --------------------------------------------------------
+cols(
+  weekday = col_double(),
+  hour = col_character(),
+  minute = col_character(),
+  n_climbers = col_double(),
+  day_date = col_character(),
+  month = col_double()
+)
+
+    weekday        hour      minute  n_climbers    day_date       month 
+  "numeric" "character" "character"   "numeric" "character"   "numeric" 
+   weekday       hour     minute n_climbers   day_date      month 
+ "numeric"  "numeric"  "numeric"  "numeric"  "numeric"  "numeric" 
+Warning message:
+Continuous limits supplied to discrete scale.
+Did you mean `limits = factor(...)` or `scale_*_continuous()`? 
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+-- Column specification --------------------------------------------------------
+cols(
+  weekday = col_double(),
+  hour = col_character(),
+  minute = col_character(),
+  n_climbers = col_double(),
+  day_date = col_character(),
+  month = col_double()
+)
+
+    weekday        hour      minute  n_climbers    day_date       month 
+  "numeric" "character" "character"   "numeric" "character"   "numeric" 
+   weekday       hour     minute n_climbers   day_date      month 
+ "numeric"  "numeric"  "numeric"  "numeric"  "numeric"  "numeric" 
+Warning message:
+Continuous limits supplied to discrete scale.
+Did you mean `limits = factor(...)` or `scale_*_continuous()`? 
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula 'y ~ x'

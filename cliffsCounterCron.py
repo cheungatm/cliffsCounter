@@ -9,6 +9,9 @@ from csv import writer
 from datetime import datetime
 import subprocess
 import os
+from bs4 import BeautifulSoup
+import requests
+import json
 
 # Set the working directory
 os.chdir('/Users/alexandercheung/Desktop/School/cliffsCounter')
@@ -41,6 +44,14 @@ n_climbers = 139 - int(re.search('There are (.*) spots', img_string).group(1))
 print('There are ', n_climbers, ' people climbing right now.')
 print('+++++++++++++++++++++++', '\n')
 
+current_url = 'https://portal.rockgympro.com/portal/public/a74dd6bfe28553eba4fca4ab9510e42f/occupancy?&iframeid=occupancyCounter&fId=1214'
+page = requests.get(current_url)
+soup = BeautifulSoup(page.content, 'html.parser')
+script_sub = soup.find_all('script')[2]
+short_str = str(script_sub).replace(' ', '').replace('\n', '')
+LIC_data = re.search('LIC(.*?)}', short_str).group(0)
+LIC_occup = int((LIC_data.split('count\':'))[1].split(',\'')[0])
+
 # save date and n_climbers as list
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
@@ -49,7 +60,7 @@ month_date = now.strftime("%m")
 hour = now.strftime("%H")
 minute = now.strftime("%M")
 weekday = datetime.today().weekday()
-list_values = [weekday, hour, minute, n_climbers, day_date, month_date]
+list_values = [weekday, hour, minute, LIC_occup, day_date, month_date]
 
 # Write fxn to save date and climber count
 def append_list_as_row(file_name, list_of_elem):
